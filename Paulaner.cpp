@@ -10,8 +10,8 @@ void Suma(){
      cin >> A;
      cin >> B;
 
-    total= A+B;
-     cout << "El resultado es: " << total <<  endl;
+        total= A+B;
+    cout << "El resultado es: " << total <<  endl;
 }
 
 void Resta(){
@@ -23,8 +23,8 @@ void Resta(){
      cin >> A;
      cin >> B;
 
-    total= A-B;
-     cout << "El resultado es: " << total <<  endl;
+        total= A-B;
+    cout << "El resultado es: " << total <<  endl;
 }
 
 void Multiplicacion(){
@@ -36,8 +36,8 @@ void Multiplicacion(){
      cin >> A;
      cin >> B;
 
-    total= A*B;
-     cout << "El resultado es: " << total <<  endl;
+        total= A*B;
+    cout << "El resultado es: " << total <<  endl;
 }
 
 void Division(){
@@ -52,7 +52,7 @@ void Division(){
     if (B==0){
          cout << "Error el denominador es cero"<< endl;
     } else {
-    total= A/B;
-     cout << "El resultado es: " << total <<  endl;
+        total= A/B;
+        cout << "El resultado es: " << total <<  endl;
 }
 }
