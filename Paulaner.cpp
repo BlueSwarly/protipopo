@@ -56,3 +56,36 @@ void Division(){
         cout << "El resultado es: " << total <<  endl;
 }
 }
+
+int main(){
+
+    cout<<"Bienvenido a tu calculadora digital"<<endl;
+    cout<<"Que operacion deseas realizar?"<<endl;
+    cout<<"1. Suma"<<endl;  
+    cout<<"2. Resta"<<endl;
+    cout<<"3. Multiplicacion"<<endl;
+    cout<<"4. Division"<<endl;
+    int opcion;
+    cin>>opcion;
+    
+    switch(opcion){
+        case 1:
+        Suma();
+        break;  
+        case 2:
+        Resta();
+        break;
+        case 3:
+        Multiplicacion();
+        break;
+        case 4:
+        Division();
+        break;
+        
+        default:
+        cout<<"Opcion no valida"<<endl;
+        break;
+        
+    }
+    return 0;
+}
